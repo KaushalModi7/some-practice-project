@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: orange;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+
+
+
+.nav-address{
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.add-first{
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.add-second{
+    font-size: 0.8rem;
+    margin-left: 3px;
+}
+.add-icon{
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    width: 700px;
+}
+.search-select{
+    border: none;    
+    background-color: whitesmoke;
+    font-size: 1rem;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 70px;
+    border: 1px solid whitesmoke;
+}
+.search-input{
+    border: none;
+    width: 600px;
+    background-color: whitesmoke;
+    font-size: 1rem;
+    margin-left: 10px;
+    border: 1px solid whitesmoke;
+}
+.search-icon{
+    color: black;
+    background-color:orange;
+    padding: 6px;
+    border-radius:5px ;
+    font-size: 1rem;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+}
+.nav-signin{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: white;
+}
+.nav-signin-icon{
+    color: white;
+    font-size: 2rem;
+    margin-left: 7px;
+}
+.signin-text{
+    margin-left: 7px;
+}
+.signin-second{
+    font-size: 0.7px;
+
+}
+.signin-second select,option:hover{
+    cursor: pointer;
+}
+.nav-return{
+    margin-left: 15px;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color: white;
+}
+.cart-icon{
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 5px;
+}
+.cart-text{
+    margin-left: 2px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('amazon-npcp6jc782ixp9zs.jpg');
+    background-size: cover;
+    align-items:flex-end;
+}
+.hero-msg{
+    color: white;
+    width: 100%;
+    background-color: rgb(54, 49, 49);
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    font-weight: bolder;
+
+}
+.hero-link{
+    color: blue;
+    text-decoration:underline;
+    cursor:pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-section{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+   /* background-image: url('360_F_397906072_fBIuwRNsNntHB8d9nG5gXsYbY4jQdS69.jpg');*/
+   /* background-size: cover;*/
+   background-color: white;
+}
+.shop-first{
+    width: 250px;
+    height: 400px;
+    border: 3px solid black;
+    background-image: url('istockphoto-1317931909-612x612.jpg');
+    background-size: cover;
+    flex-wrap:wrap;
+    text-align: center;
+    padding-top: 10px;
+}
+.shop-second{
+    width: 250px;
+    height: 400px;
+    border: 3px solid black;
+    background-image: url('image copy.png');
+    background-size: cover;
+    flex-wrap:wrap;
+    text-align: center;
+    padding-top: 10px;
+}
+.shop-third{
+    width: 250px;
+    height: 400px;
+    border: 3px solid black;
+    background-image: url('ShoeRack7-TierVerticalShoeRack.jpg');
+    background-size: cover;
+    flex-wrap:wrap;
+    text-align: center;
+    padding-top: 10px;
+}
+.shop-four{
+    width: 250px;
+    height: 400px;
+    border: 3px solid black;
+    background-image: url('image.png');
+    background-size: cover;
+    flex-wrap:wrap;
+    text-align: center;
+    padding-top: 10px;
+}
+.shop-five{
+    width: 250px;
+    height: 400px;
+    border: 3px solid black;
+    background-image: url('image\ copy\ 3.png');
+    background-size: cover;
+    flex-wrap:wrap;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 3px;
+    margin:10px;
+}
+.shop-six{
+    width: 250px;
+    height: 400px;
+    border: 3px solid black;
+    background-image: url('image\ copy\ 2.png');
+    background-size: cover;
+    flex-wrap:wrap;
+    text-align: center;
+    padding-top: 10px;
+}
+.shop-seven{
+    width: 250px;
+    height: 400px;
+    border: 3px solid black;
+    background-image: url('gumshoes-banner-vertical_1284-5366.jpg');
+    background-size: cover;
+    flex-wrap:wrap;
+    text-align: center;
+    padding-top: 10px;
+}
+.shop-eight{
+    width: 250px;
+    height: 400px;
+    border: 3px solid black;
+    background-image: url('istockphoto-1317931909-612x612.jpg');
+    background-size: cover;
+    flex-wrap:wrap;
+    text-align: center;
+    padding-top: 10px;
+}
+.foot-panel{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(9, 9, 9);
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.foot-panel1{
+    background-color: rgb(50, 46, 46);
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    font-size: 1rem;
+}
+.f1{
+    display: block;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.f2{
+    background-color: black;
+    color: orange;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
